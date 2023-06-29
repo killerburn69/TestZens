@@ -1,0 +1,33 @@
+.navbar-container{
+    box-shadow: 0px 4px 11px -2px rgba(0,0,0,0.6);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.navbar-flex{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.navbar-user{
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.navbar-user__heading{
+    margin: 0;
+}
+.navbar-user__para{
+    margin: 0;
+}
+.navbar-image{
+    display: block;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
